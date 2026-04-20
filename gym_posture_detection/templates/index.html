@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Posture Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Gym Posture Detection</h1>
+            <a href="/contact" class="contact-btn">Contact Us</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Exercises</h2>
+        <div class="exercise-section">
+            <!-- Card for Weightlifting -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/weightlifting.jpeg') }}" alt="Weightlifting">
+                <h2>Weightlifting</h2>
+                <a href="/exercise/weightlifting">Start</a>
+            </div>
+
+            <!-- Card for Arm Curl -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/armcurl.jpeg') }}" alt="Arm Curl">
+                <h2>Arm Curl</h2>
+                <a href="/exercise/armcurl">Start</a>
+            </div>
+
+            <!-- Card for Pushup -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/pushups.jpeg') }}" alt="Pushup">
+                <h2>Pushup</h2>
+                <a href="/exercise/pushups">Start</a>
+            </div>
+
+            <!-- Card for Bench Press -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/benchpress.jpeg') }}" alt="Bench Press">
+                <h2>Bench Press</h2>
+                <a href="/exercise/benchpress">Start</a>
+            </div>
+
+            <!-- Card for Squats -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/squats.jpg') }}" alt="Squats">
+                <h2>Squats</h2>
+                <a href="/exercise/squats">Start</a>
+            </div>
+
+            <!-- Card for Planks -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/young-man-planking.jpg') }}" alt="Planks">
+                <h2>Planks</h2>
+                <a href="/exercise/planks">Start</a>
+            </div>
+        </div>
+
+        <h2>Yogasans</h2>
+        <div class="yogasan-section">
+            <!-- Card for Tree Pose -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/treepose.jpg') }}" alt="Tree Pose">
+                <h2>Tree Pose</h2>
+                <a href="/exercise/treepose">Start</a>
+            </div>
+
+            <!-- Card for Warrior Pose -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/warriorpose.jpg') }}" alt="Warrior Pose">
+                <h2>Warrior Pose</h2>
+                <a href="/exercise/warriorpose">Start</a>
+            </div>
+
+            <!-- Card for Downward Dog -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/downwarddog.jpg') }}" alt="Downward Dog">
+                <h2>Downward Dog</h2>
+                <a href="/exercise/downwarddog">Start</a>
+            </div>
+
+            <!-- Card for Cobra Pose -->
+            <div class="card">
+                <img src="{{ url_for('static', filename='images/cobrapose.jpg') }}" alt="Cobra Pose">
+                <h2>Cobra Pose</h2>
+                <a href="/exercise/cobrapose">Start</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <h1>Thanks for visiting our Gym Posture Detection App!</h1>
+            <p>Improve your form and stay safe during workouts.</p>
+        </div>
+    </footer>
+</body>
+</html>
